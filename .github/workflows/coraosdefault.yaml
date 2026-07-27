@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: build-coraos-kernels
+  group: build-coraos-kernel
   cancel-in-progress: false
 
 permissions:
